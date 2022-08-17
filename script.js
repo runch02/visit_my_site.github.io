@@ -53,74 +53,72 @@ showSelfInformation()
 let siteInformationContainer = [
     {
         title: "Timer",
-        visitSite: "",
+        visitSite: "https://runch02.github.io/timer.github.io/",
         gradient: "linear-gradient(#ffafbd, #ffc3a0)"
     },
     {
         title: "Stopwatch",
-        visitSite: "",
+        visitSite: "https://runch02.github.io/stopwatch.github.io/",
         gradient: "linear-gradient(#2193b0, #6dd5ed)"
     },
     {
         title: "Lap Stopwatch",
-        visitSite: "",
+        visitSite: "https://runch02.github.io/lap_stopwatch.github.io/",
         gradient: "linear-gradient(#cc2b5e, #753a88)"
     },
     {
         title: "12 Hour Format Watch",
-        visitSite: "",
+        visitSite: "https://runch02.github.io/12_hour_watch.github.io/",
         gradient: "linear-gradient(#ee9ca7, #ffdde1)"
     },
     {
         title: "24 Hour Format Watch",
-        visitSite: "",
+        visitSite: "https://runch02.github.io/24_hour_watch.github.io/",
         gradient: "linear-gradient(#42275a, #734b6d)"
     },
     {
         title: "Background Color Changer",
-        visitSite: "",
+        visitSite: "https://runch02.github.io/background_color_changer.github.io/",
         gradient: "linear-gradient(#bdc3c7, #2c3e50)"
     },
     {
         title: "RGB",
-        visitSite: "",
+        visitSite: "https://runch02.github.io/rgb.github.io/",
         gradient: "linear-gradient(#de6262, #ffb88c)"
     },
     {
         title: "RGBA",
-        visitSite: "",
+        visitSite: " https://runch02.github.io/rgba.github.io/",
         gradient: "linear-gradient(#06beb6, #48b1bf)"
     },
     {
         title: "Counter",
-        visitSite: "",
+        visitSite: " https://runch02.github.io/counter.github.io/",
         gradient: "linear-gradient(#eb3349, #f45c43)"
     },
     {
         title: "Image Slider",
-        visitSite: "",
+        visitSite: " https://runch02.github.io/image_slider.github.io/",
         gradient: "linear-gradient(#dd5e89, #f7bb97)"
     },
     {
         title: "Random Quote",
-        visitSite: "",
+        visitSite: " https://runch02.github.io/random_quote.github.io/",
         gradient: "linear-gradient(#56ab2f, #a8e063)"
     },
     {
         title: "Informative Site",
-        visitSite: "",
+        visitSite: " https://runch02.github.io/informative_site.github.io/",
         gradient: "linear-gradient(#614385, #516395)"
         
     },
 ]
-
 let showSiteInformation = () => {
     let create;
     for (let i of siteInformationContainer) {
         create = ` <div class="each-information-container" style="background: ${i.gradient};">
             <p>${i.title}</p>
-            <a href="${i.visitSite}" ta,
-            gradient: "linear-gradient()"rget="_blank">${i.title}</a>
+            <a href="${i.visitSite}" target="_blank">${i.title}</a>
         </div> `
         document.querySelector(".site-information-container").insertAdjacentHTML("beforeend", create)
     }
