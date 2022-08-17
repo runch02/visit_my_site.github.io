@@ -78,7 +78,7 @@ let siteInformationContainer = [
     },
     {
         title: "Background Color Changer",
-        visitSite: "https://runch02.github.io/background_color_changer.github.io/",
+        visitSite: "https://runch02.github.io/background.github.io/",
         gradient: "linear-gradient(#bdc3c7, #2c3e50)"
     },
     {
