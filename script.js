@@ -27,7 +27,7 @@ let selfInformationContainer = [
         information: "Another place to find the code",
         link: "https://code.dcoder.tech/profile/runch",
         linkName: "DCODER",
-        gradient: "linear-gradient(#000428, #004e92)"
+        gradient: "linear-gradient(#cc2b5e, #753a88)"
     },
     {
         information: "Get connected online!",
@@ -88,28 +88,40 @@ let siteInformationContainer = [
     },
     {
         title: "RGBA",
-        visitSite: " https://runch02.github.io/rgba.github.io/",
+        visitSite: "https://runch02.github.io/rgba.github.io/",
         gradient: "linear-gradient(#06beb6, #48b1bf)"
     },
     {
         title: "Counter",
-        visitSite: " https://runch02.github.io/counter.github.io/",
+        visitSite: "https://runch02.github.io/counter.github.io/",
         gradient: "linear-gradient(#eb3349, #f45c43)"
     },
     {
         title: "Image Slider",
-        visitSite: " https://runch02.github.io/image_slider.github.io/",
+        visitSite: "https://runch02.github.io/image_slider.github.io/",
         gradient: "linear-gradient(#dd5e89, #f7bb97)"
     },
     {
         title: "Random Quote",
-        visitSite: " https://runch02.github.io/random_quote.github.io/",
+        visitSite: "https://runch02.github.io/random_quote.github.io/",
         gradient: "linear-gradient(#56ab2f, #a8e063)"
     },
     {
         title: "Informative Site",
-        visitSite: " https://runch02.github.io/informative_site.github.io/",
+        visitSite: "https://runch02.github.io/informative_site.github.io/",
         gradient: "linear-gradient(#614385, #516395)"
+        
+    },
+    {
+        title: "KALPBRUH",
+        visitSite: "https://runch02.github.io/kalpbruh.github.io/",
+        gradient: "linear-gradient(#cc2b5e, #753a88)"
+        
+    },
+    {
+        title: "Automatic Type Writer",
+        visitSite: "https://runch02.github.io/automatic_type_writer.github.io/",
+        gradient: "linear-gradient(#dd5e89, #f7bb97)"
         
     },
 ]
